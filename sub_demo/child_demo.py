@@ -1,3 +1,4 @@
+import time
 from datetime import datetime
 
 
@@ -13,3 +14,4 @@ class Demo():
 
     def date(self):
         print("Today is: ", datetime.now())
+        print(time.timezone)
